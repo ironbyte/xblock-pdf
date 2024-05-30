@@ -39,7 +39,7 @@ class PdfBlock(XBlock):
 
     allow_download = Boolean(
         display_name=_("PDF Download Allowed"),
-        default=True,
+        default=False,
         scope=Scope.content,
         help=_("Display a download button for this PDF.")
     )
